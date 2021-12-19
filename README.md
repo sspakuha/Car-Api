@@ -1,9 +1,6 @@
 # Car-Api - Simple REST API for NetGuru
-### Description:
 
-Car-Api - Simple REST API.
-
-**Endpoints:**
+###Endpoints
 
 **POST /cars/**
 Content-Type: application/json;charset=UTF-8
