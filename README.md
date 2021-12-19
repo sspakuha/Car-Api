@@ -1,6 +1,5 @@
 # Car-Api - Simple REST API for NetGuru
-#### Video Demo:  https://youtu.be/WQcsW8mnZSQ
-#### Description
+### Description:
 
 Car-Api - Simple REST API.
 
@@ -40,21 +39,21 @@ Content-Type: application/json;charset=UTF-8
 Python, Django, REST framework and Docker(docker-compose).
 
 
-#### Requirements
+### Requirements
 - python3 ```$ sudo apt install python3```
 - pip ```$ sudo apt install python3-pip```
 - docker.io ```$ sudo apt install docker.io```
 - docker-compose ```$ sudo pip install docker-compose```
 
 
-#### How to use
+### How to use
 To run the REST API use this command:
 ```
 $ docker-compose up --build
 ```
 
 
-#### Files description
+### Files description
 1. `Dockerfile` - Text document that contains all the commands a user could call on the command line to assemble an image.
 2. `manage.py` - Django application entry point (This file is used basically as a command-line utility and for deploying, debugging, or running the web application).
 3. `docker-compose.yml` - Tool for defining and running multi-container Docker applications. Generic application entry point.
