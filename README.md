@@ -12,7 +12,6 @@ To run the Car-Api simply run this command inside the project directory:
 $ docker-compose up --build
 ```
 
-
 ### Endpoints:
 
 -------------------------------------------------------------
