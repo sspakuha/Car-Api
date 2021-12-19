@@ -24,6 +24,7 @@ Content-Type: application/json;charset=UTF-8
 {
 
   "make" : "Volkswagen",
+
   "model" : "Golf",
 
 }
@@ -41,6 +42,7 @@ Content-Type: application/json;charset=UTF-8
 {
 
   "car_id" : 1,
+
   "rating" : 5,
 
 }
