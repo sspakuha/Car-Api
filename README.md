@@ -8,7 +8,7 @@
 
 
 ### How to use
-To run the REST API use this command:
+To run the Car-Api use this command:
 ```
 $ docker-compose up --build
 ```
@@ -45,8 +45,10 @@ Content-Type: application/json;charset=UTF-8
 
 **GET /popular**
 
+-------------------------------------------------------------
 
-**Stack**:
+
+### Stack:
 Python, Django, REST framework and Docker(docker-compose).
 
 
