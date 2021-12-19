@@ -1,5 +1,19 @@
 # Car-Api - Simple REST API for NetGuru
 
+### Requirements
+- python3 ```$ sudo apt install python3```
+- pip ```$ sudo apt install python3-pip```
+- docker.io ```$ sudo apt install docker.io```
+- docker-compose ```$ sudo pip install docker-compose```
+
+
+### How to use
+To run the REST API use this command:
+```
+$ docker-compose up --build
+```
+
+
 ### Endpoints:
 
 **POST /cars/**
@@ -34,20 +48,6 @@ Content-Type: application/json;charset=UTF-8
 
 **Stack**:
 Python, Django, REST framework and Docker(docker-compose).
-
-
-### Requirements
-- python3 ```$ sudo apt install python3```
-- pip ```$ sudo apt install python3-pip```
-- docker.io ```$ sudo apt install docker.io```
-- docker-compose ```$ sudo pip install docker-compose```
-
-
-### How to use
-To run the REST API use this command:
-```
-$ docker-compose up --build
-```
 
 
 ### Files description
