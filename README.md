@@ -6,7 +6,6 @@
 - docker.io ```$ sudo apt install docker.io```
 - docker-compose ```$ sudo pip install docker-compose```
 
-
 ### How to use
 To run the Car-Api simply run this command inside the project directory:
 ```
