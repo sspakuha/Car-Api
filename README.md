@@ -5,23 +5,28 @@
 Car-Api - Simple REST API.
 
 **Endpoints:**
-`POST /cars/
+--
+```POST /cars/
 
 Content-Type: application/json;charset=UTF-8
 {
   "make" : "Volkswagen",
   "model" : "Golf",
-}`
-`DELETE /cars/{  id }/`
-`POST /rate/
+}```
+--
+```DELETE /cars/{  id }/```
+--
+```POST /rate/
 
 Content-Type: application/json;charset=UTF-8
 {
   "car_id" : 1,
   "rating" : 5,
-}`
-`GET /cars`
-`GET /popular`
+}```
+--
+```GET /cars```
+--
+```GET /popular```
 
 
 **Stack**:
@@ -38,7 +43,7 @@ Python, Django, REST framework and Docker(docker-compose).
 #### How to use
 To run the REST API use this command:
 ```
-**$ docker-compose up --build**
+$ docker-compose up --build
 ```
 
 
