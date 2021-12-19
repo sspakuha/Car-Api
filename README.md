@@ -8,7 +8,7 @@
 
 
 ### How to use
-To run the Car-Api simply use this command:
+To run the Car-Api simply run this command:
 ```
 $ docker-compose up --build
 ```
