@@ -26,7 +26,7 @@ class CarSerializer(ModelSerializer):
 		obj.avg_rating = Rating.objects.filter(car_id=obj.id).aggregate(Avg('rate'))
 
 		if not obj.avg_rating["rate__avg"] == None:
-			return obj.avg_rating["rate__avg"]
+			return round(obj.avg_rating["rate__avg"], 2)
 		else:
 			return 0
 
